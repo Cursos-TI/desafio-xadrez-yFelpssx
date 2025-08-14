@@ -116,7 +116,7 @@ do {
 //APENAS PARA SEPARAR.
 printf("\n");
 
-//MOVIMENTO DA TORRE
+//MOVIMENTO DA TORRE.
 do
 {
     printf("Digite quantas casas para a TORRE mover (Max 7): ");
@@ -127,7 +127,7 @@ do
     }
 }while (Torre < 1 || Torre > 7);
 
-
+//DIREÇÃO PARA MOVER.
 for (int i = 1; i <= totalMovimentos; i++){
 int valido = 0;
 while (!valido){
